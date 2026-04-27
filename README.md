@@ -3,11 +3,18 @@
 
 Step 1: Create Repo on GitHub
 Go to 👉 GitHub
+
 Click New Repository
+
 Name: multer-cloudinary-upload
+
 Visibility: Public
+
 Click Create
+
+
 🚀 Step 2: Local Project Setup
+
 mkdir multer-cloudinary-upload
 cd multer-cloudinary-upload
 npm init -y
@@ -27,8 +34,10 @@ multer-cloudinary-upload/
 ├── server.js
 └── README.md
 🚀 Step 4: Add Code Files
+
+
 📄 server.js
-const express = require("express");
+```const express = require("express");
 require("dotenv").config();
 
 const uploadRoutes = require("./routes/upload");
@@ -94,16 +103,24 @@ router.post("/upload", upload.single("image"), async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
-});
 
+});```
 module.exports = router;
+
+
 📄 .env
+});```
 CLOUD_NAME=your_cloud_name
 API_KEY=your_api_key
 API_SECRET=your_api_secret
+});```
 PORT=3000
+
+
 📄 .gitignore
 node_modules/
+
+
 .env
 📄 README.md
 # Multer + Cloudinary File Upload 🚀
@@ -144,4 +161,4 @@ git commit -m "Initial commit - Multer + Cloudinary upload"
 
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/multer-cloudinary-upload.git
-git push -u origin main
+});```
