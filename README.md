@@ -6,7 +6,7 @@ This project demonstrates how to upload images using:
 
 ## 📂 Project Structure
 
-multer-cloudinary-upload/
+```multer-cloudinary-upload/
 │
 ├── config/
 │   └── cloudinary.js
@@ -17,6 +17,7 @@ multer-cloudinary-upload/
 ├── package.json
 ├── server.js
 └── README.md
+```
 
 ## 🔧 Installation
 
