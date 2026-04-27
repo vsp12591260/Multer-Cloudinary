@@ -79,7 +79,3 @@ PORT=3000
 - React frontend UI
 
 ---
-
-## 👨‍💻 Author
-
-Your Name
